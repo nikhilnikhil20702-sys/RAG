@@ -31,7 +31,7 @@ retriever = mydb.as_retriever(search_type="similarity", search_kwargs={"k": 6})
 model = ChatGroq(model="llama-3.3-70b-versatile", groq_api_key=groq_api_key)
 ##model1 = ChatOpenAI(model="gpt-4o-mini", openai_api_key=openai_api_key)
 
-st.title("Nikhil's Caffe")
+st.title("Nisarg's Caffe")
 query = st.chat_input("Ask me anything: ")
 
 system_prompt = (
